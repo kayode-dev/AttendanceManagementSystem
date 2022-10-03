@@ -1,0 +1,73 @@
+﻿body {
+}
+.text-colour {
+    color: mediumturquoise;
+}
+
+.brand-sizing {
+    padding: 0px;
+}
+
+.menubar {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+    .menubar a {
+        text-decoration: none;
+        color: azure;
+        transition: 0.2s;
+    }
+
+        .menubar a:hover {
+            border-bottom: 2px solid mediumturquoise;
+            transition: 0.2s;
+        }
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 30%;
+    box-shadow: 0 4px 8px 0 rgb(185, 183, 183);
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: unset;
+        object-position: center top;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgb(185, 183, 183);
+        transition: 0.5s;
+    }
+
+.containerr {
+    padding: 2px 16px;
+    color: black;
+    border-color: black;
+}
+
+.textingg {
+    border-radius: unset;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+
+    .card {
+        flex-basis: 100%;
+    }
+}
